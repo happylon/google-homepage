@@ -42,14 +42,15 @@ body {
 }
 #img{
     justify-self: center;
-    width: 40%;
+    width: 350px;
+    
 }
 
 .container{
-    padding-top: 180px;
+    padding-top: 140px;
     display: grid;
-    grid-template-rows: 150px 30px 40px;
-    grid-gap: 80px;
+    grid-template-rows: 120px 50px 40px;
+    grid-gap: 2.5em;
     
 }
 
@@ -57,15 +58,16 @@ form{
     justify-self: center;
     position: relative;
     
+    
 }
 #search-form{
     
     border-radius: 20px; 
     border: 1px solid lightgray;
-    width: 750px;
-    height: 100%;
-    padding-left: 50px;
-    margin-top: 90px
+    width: 600px;
+    height: 50px;
+    padding-left: 0px;
+    margin-top: 1em;  
 }
 
 #search-form:hover{
@@ -78,11 +80,12 @@ form{
 }
 
 
+
 .search-icon {
     color: lightgray; 
     position: absolute;
     top: 15px;
-    left: 20px;
+    left: 1;
     font-size: 15px;
 }
 
@@ -90,7 +93,7 @@ form{
     position: absolute;
     width: 24px;
     right: 18px;
-    top: 11px;
+    top: 50%;
 }
 button{
     color: darkslategray;
@@ -107,7 +110,7 @@ button:hover {
 }
 #btns{
     justify-self: center;
-    margin-top: -100px;
+    margin-top: -80px;
     
     
 }
